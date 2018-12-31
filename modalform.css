@@ -1,0 +1,62 @@
+body { font-size: 120%; }
+    label, input { display:block; }
+    input.text { margin-bottom:12px; width:95%; padding: .4em; }
+    fieldset { padding:0; border:0; margin-top:25px; }
+    h2 { font-size: 1.2em; margin: .6em 0; }
+    div#users-contain { 
+    	width: 350px; margin: 20px 0; 
+    }
+
+    div#users-contain table { 
+    	margin: 1em 0; border-collapse: collapse; width: 100%; 
+    }
+
+    div#users-contain table td, div#users-contain table th { 
+    	border: 1px solid #eee; padding: .6em 10px; text-align: left; 
+    }
+    
+    .ui-dialog .ui-state-error { padding: .3em; }
+    .validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+h3{margin: 0;}
+
+#edit,#delete{
+	display: block;
+	position: relative;
+	padding: 0;
+	line-height: normal;
+	margin-right: .1em;
+	cursor: pointer;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	overflow: visible; /* removes extra width in IE */
+}
+
+fieldset {
+  border: 0;
+}
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+select {
+  width: 200px;
+}
+.overflow {
+  height: 200px;
+}
+
+.address-input1{
+  width: 130px;
+  text-align: left;
+  margin: 2px 10px;
+  display: inline-block;
+}
+
+.address-input {
+  width: 200px;
+  text-align: left;
+  margin: 2px 10px;
+  display: inline-block;
+}
